@@ -1,5 +1,3 @@
-
-
 // nav bar elements
 // trending songs
 let x1 = document.getElementById('ts');
@@ -41,12 +39,12 @@ let songitem = Array.from(document.getElementsByClassName('songname'));
 
 
 let songs = [
-    { songname: "Christmas Music - Magical Fairy Tale for Kids", filePath: "1.mp3", coverpath: "cover1.png" },
-    { songname: "Twinkle-Twinkle-Little-Star", filePath: "2.mp3", coverpath: "cover2.jpg" },
-    { songname: "The Lion King-HAKUNA MATATA", filePath: "3.mp3", coverpath: "cover3.jpg" },
-    { songname: "You Are My Sunshine", filePath: "4.mp3", coverpath: "cover4.jpg" },
-    { songname: "Six Little Ducks", filePath: "5.mp3", coverpath: "cover5.jpg" },
-    { songname: "Head, Shoulders, Knees, Toes", filePath: "6.mp3", coverpath: "cover6.jpg" },
+    {filePath: "1.mp3" },
+    {filePath: "2.mp3" },
+    {filePath: "3.mp3" },
+    {filePath: "4.mp3" },
+    {filePath: "5.mp3"},
+    {filePath: "6.mp3"},
     {filePath:"7.mp3"},
     {filePath:"8.mp3"},
     {filePath:"9.mp3"},
@@ -127,19 +125,6 @@ Array.from(document.getElementsByClassName('songitemplay')).forEach((element) =>
     })
 });
 
-//to pause already playing song in list
-
-// Array.from(document.getElementsByClassName('songitemplay')).forEach((element)=>{
-//     element.addEventListener('click',(e)=>{
-//          if(audioeelement.play()){
-//             audioeelement.pause();
-//             masterplay.classList.remove('fa-circle-pause');
-//             masterplay.classList.remove('fa-beat');
-//             masterplay.classList.add('fa-circle-play');
-//             gif.style.opacity=0;
-//          }
-//     })
-// });
 // next button
 document.getElementById('next').addEventListener('click', () => {
     if (index >= 5) index = 0
