@@ -1,4 +1,4 @@
-console.log("HIIIII jaan");
+
 
 // nav bar elements
 // trending songs
