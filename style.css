@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+body {
+    background-color: antiquewhite;
+    font-family: 'Shantell Sans', cursive;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navigation bar styling */
+nav {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav span {
+    margin: 3px 12px;
+    padding: 4px;
+    font-size: 1.2em;
+}
+nav span:hover{
+    border: 2px solid black;
+    border-radius: 23px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 8px;
+    box-shadow: 5px 5px 4px white;
+}
+
+.logo {
+    display: flex;
+    margin: 3px 12px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.logo img {
+    height: 60px;
+    padding: 0px 8px;
+}
+
+/* nav bar elements */
+#trend{
+    width: 80vw;
+    margin-left: 125px;
+    padding: 14px;
+}
+#new{
+    width: 80vw;
+    margin-left: 125px;
+    padding: 14px;
+}
+#classic{
+    width: 80vw;
+    margin-left: 125px;
+    padding: 14px;
+}
+.emoji{
+    display: flex;
+}
+
+.container{
+    min-height: 63vh;
+    color: black;
+    display: flex;
+    margin: 16px auto;
+    width: 70%;
+    border-radius: 14px;
+    padding: 34px;
+    background: url(back.png);
+    display: flex;
+}
+.container p{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    display: inline;
+    background: aqua;
+    padding: 8px;
+    border-radius: 13px;
+    box-shadow: -5px -5px 8px black;
+}
+
+.bottom{
+ display: flex;
+ flex-direction: column;
+ position: sticky;
+ bottom: 0;
+ background-color: blueviolet;
+ height: 89px;
+ justify-content: center;
+ align-items: center;
+ /* background: url(music-playing.gif) ; */
+}
+#progress_bar{
+    width: 80vw;
+    cursor: pointer;
+}
+.icons{
+    margin: 18px 0px;
+}
+.icons i{
+    padding: 12px;
+    cursor: pointer;
+}
+.songitemcont{
+    margin-top: 22px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    width: 92%;
+    color: white;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+    padding: 7px;
+}
+.songItem img{
+    width: 90px;
+    margin: 0px 9px;
+    margin-right: 14px;
+    height: 127%;
+}
+.timestamp{
+    display: flex;
+}
+.timestamp i{
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.songinfo{
+    position: fixed;
+    right: 60px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in ;
+}
+
