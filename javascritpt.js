@@ -31,7 +31,7 @@ x3.addEventListener('mouseleave', () => {
 
 // variables used
 let index = 0;
-let audioeelement = new Audio('christmas.mp3');
+let audioeelement = new Audio('1.mp3');
 let masterplay = document.getElementById('masterplay');
 let progressbar = document.getElementById('progress_bar');
 let gif = document.getElementById('gif');

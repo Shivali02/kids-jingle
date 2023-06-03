@@ -73,7 +73,7 @@ nav span:hover{
     width: 70%;
     border-radius: 14px;
     padding: 34px;
-    background: url(back.png);
+    background: url(cover/back.png);
     display: flex;
 }
 .container p{
